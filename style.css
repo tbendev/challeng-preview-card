@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "outfit", sans-serif;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card-container {
+  min-height: 80%;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  box-shadow: 0px 19px 10px 10px hsl(217, 54%, 9%);
+  -webkit-box-shadow: 0px 19px 10px 10px hsl(217, 54%, 9%);
+  -moz-box-shadow: 0px 19px 10px 10px hsl(217, 54%, 9%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3vh;
+}
+
+img {
+  border-radius: 20px;
+  max-height: 40vh;
+  float: left;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  width: 40vh;
+  font-weight: 400;
+}
+
+.cours-day {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.icon {
+  padding-top: 3px;
+  padding-right: 5px;
+}
+
+.line {
+  border-top: 2px solid hsl(215, 32%, 27%);
+}
+
+.creator {
+  width: 40vh;
+  display: flex;
+}
+
+.content-creator {
+  padding-top: 10px;
+  margin-left: 80px;
+}
+
+.image-creator {
+  height: 5vh;
+  border: 2px solid hsl(0, 0%, 70%);
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card {
+  position: relative;
+}
+
+.card .image-top {
+  display: none;
+  position: absolute;
+  size: cover;
+  top: 45%;
+  left: 45%;
+}
+
+.card:hover .image-top {
+  display: inline;
+}
+
+.card:hover .vue {
+  filter: opacity(0.6) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+}
