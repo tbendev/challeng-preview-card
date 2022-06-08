@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]https://tbendev.github.io/challeng-preview-card/)
+- Solution URL: https://tbendev.github.io/challeng-preview-card/)
 
 ## My process
 
