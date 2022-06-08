@@ -120,3 +120,24 @@ a:hover {
 .card:hover .vue {
   filter: opacity(0.6) drop-shadow(0 0 0 hsl(178, 100%, 50%));
 }
+
+@media screen and (max-width: 375px) {
+  .card-container {
+    min-height: 90%;
+  }
+
+  .attribution {
+    display: none;
+  }
+
+  figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-creator {
+    font-weight: 400;
+    margin-left: 10px;
+  }
+}
